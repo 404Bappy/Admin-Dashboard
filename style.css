@@ -68,7 +68,7 @@ a{
 
 img{
     display: block;
-    width: 100%;
+    width: 20%;
 }
 
 h1 {
@@ -144,7 +144,13 @@ aside.top{
     margin-top: 1.4rem;
 }
 
-aside.log img {
-    width: 0.00001rem;
-    height: 0.0001rem;
+aside.logo {
+    display: flex;
+    gap: 0.8;
+}
+
+aside.logo img {
+    width: 2rem;
+    height: 2rem;
+
 }
