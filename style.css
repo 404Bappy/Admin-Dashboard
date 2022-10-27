@@ -130,3 +130,21 @@ b{
 .warning{
     color: var(--color-warning);
 }
+
+aside {
+    height: 100vh;
+    background: gray;
+}
+
+aside.top{
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1.4rem;
+}
+
+aside.log img {
+    width: 0.00001rem;
+    height: 0.0001rem;
+}
