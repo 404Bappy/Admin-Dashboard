@@ -4,7 +4,7 @@
 :root {
     --color-primary: #7380ec;
     --color-danger: #ff7782;
-    --color-success: #41fb6;
+    --color-success: rgb(113, 238, 104);
     --color-warning: #ffbb55;
     --color-white: #fff;
     --color-info-dark: #7d8dau;
@@ -267,7 +267,7 @@ main .insights{
     box-shadow: var(--box-shadow);
     transition: all 300ms ease;
 }
-main .insights > div:hover{
+main .insights > div:hover {
     box-shadow: none;
 }
 
@@ -279,6 +279,9 @@ main .insights >div span {
     font-size: 2rem;
 
 }
-main .insights > div .expenses span{
+main .insights > div.expenses span{
     background: var(--color-danger);
+}
+main .insights > div.income span{
+    background: var(--color-success);
 }
