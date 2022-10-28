@@ -51,6 +51,7 @@ body {
     background: var(--color-background);
     user-select: none;
     overflow-x: hidden;
+    color: var(--color-dark);
 
 }
 
@@ -163,7 +164,7 @@ aside .close {
 /*================>>SIDEBAR<<============*/
 
 aside .sidebar {
-    
+
     display: flex;
     flex-direction: column;
     height: 86vh;
@@ -224,10 +225,60 @@ aside .sidebar a:hover span {
     margin-left: 1rem;
 }
 
-aside .sidebar .messageCount{
+aside .sidebar .messageCount {
     background: var(--color-danger);
     color: var(--color-white);
     padding: 2px 10px;
     font-size: 11px;
     border-radius: var(--border-radius-1);
+}
+
+/*================>> MAIN <<==================*/
+
+main {
+    margin-top: 1.4rem;
+}
+
+main .date {
+
+    display: inline-block;
+    background: var(--color-light);
+    border-radius: var(--border-radius-1);
+    margin-top: 1rem;
+    padding: 0.5rem 1.6rem;
+}
+
+main .date input[type="data"] {
+    background: transparent;
+    color: var(--color-dark);
+}
+
+main .insights {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.6rem;
+}
+
+main .insights > div{
+    background: var(--color-white);
+    padding: var(--card-padding);
+    border-radius: var(--card-border-radius);
+    margin-top: 1rem;
+    box-shadow: var(--box-shadow);
+    transition: all 300ms ease;
+}
+main .insights > div:hover{
+    box-shadow: none;
+}
+
+main .insights >div span {
+    background:var(--color-primary);
+    padding: 0.5rem;
+    border-radius: 50%;
+    color: var(--color-white);
+    font-size: 2rem;
+
+}
+main .insights > div .expenses span{
+    background: var(--color-danger);
 }
