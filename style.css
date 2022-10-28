@@ -253,13 +253,13 @@ main .date input[type="data"] {
     color: var(--color-dark);
 }
 
-main .insights {
+main .insights{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1.6rem;
 }
 
-main .insights > div{
+ main .insights > div{
     background: var(--color-white);
     padding: var(--card-padding);
     border-radius: var(--card-border-radius);
