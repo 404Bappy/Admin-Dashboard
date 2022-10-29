@@ -302,6 +302,12 @@ main .insights h3 {
     border-radius: 50%;
 
 }
+main .insights .progress{
+    position: relative;
+    width: 92px;
+    height: 92px;
+    border-radius: 50%;
+}
 
 main .insights svg {
     width: 7rem;
@@ -333,15 +339,15 @@ main .insights .income svg circle {
     stroke-dashoffset: 20;
     stroke-dasharray: 80;
 }
-/*problem */
-main .insights .progress .number{
+
+main .insights .progress .Number{
     position: absolute;
     top: 0;
     left: 0;
     height: 100%;
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
 
 }
@@ -351,7 +357,7 @@ main .insights small{
     display: block;
 }
 
-/*==================>>Recent Orders<<==================*
+/*==================>>Recent Orders<<==================*/
 
 main .recent-orders{
     margin-top: 2rem;
