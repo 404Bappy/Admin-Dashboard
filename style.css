@@ -521,3 +521,19 @@ main .recent-orders a {
     background: var(--color-warning);
     display: flex;
 }
+
+.right .sales-analytics .item.offline .icon{
+    background: brown;
+}
+.right .sales-analytics .item.customers .icon{
+    background: rgb(71, 165, 42);
+}
+
+.right .sales-analytics .add-product{
+    background-color: transparent;
+    border: 2px dashed var(--color-danger);
+    color: rgb(77, 148, 215);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
