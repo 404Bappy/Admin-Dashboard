@@ -670,6 +670,12 @@ main .recent-orders a {
         width: 100%;
         margin: 0;
         z-index: 2;
-        box-shadow: 0;
+        box-shadow: 0 1rem 1rem var(--color-light);
+    }
+
+    .right .top .theme-toggler {
+        width: 4.4rem;
+        position: absolute;
+        left: 66%;
     }
 }
