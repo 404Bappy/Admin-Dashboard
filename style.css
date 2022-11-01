@@ -618,4 +618,14 @@ main .recent-orders a {
         height: 100vh;
         padding-right: var(--card-padding);
     }
+
+    aside .logo{
+       margin-left: 1rem;
+    }
+    aside .logo h2{
+        display: inline;
+    }
+    aside .sidebar h3{
+        display: inline;
+    }
 }
