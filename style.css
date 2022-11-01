@@ -139,7 +139,6 @@ aside {
 }
 
 aside .top {
-    background: white;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -162,7 +161,7 @@ aside .close {
     display: none;
 }
 
-/*================>>SIDEBAR<<============*/
+/*================>> SIDEBAR <<============*/
 
 aside .sidebar {
 
@@ -554,7 +553,7 @@ main .recent-orders a {
 @media screen and (max-width: 1200px) {
     .container {
         width: 94%;
-        grid-template-columns: 7rem auto 23rem;
+        grid-template-columns: 7rem auto 23rem; 
     }
 
     aside .logo h2 {
@@ -572,7 +571,7 @@ main .recent-orders a {
     aside .sidebar a:last-child {
         position: relative;
         margin-top: 1.8rem;
-    }
+    } 
 
     main .insights {
         grid-template-columns: 1fr;
@@ -613,7 +612,7 @@ main .recent-orders a {
         position: fixed;
         left: 0;
         background: var(--color-light);
-        width: 18rem;
+        width: 18rem; 
         z-index: 3;
         box-shadow: 1rem 3rem 4rem var(--color-light);
         height: 100vh;
