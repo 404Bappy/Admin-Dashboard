@@ -522,14 +522,15 @@ main .recent-orders a {
     display: flex;
 }
 
-.right .sales-analytics .item.offline .icon{
+.right .sales-analytics .item.offline .icon {
     background: brown;
 }
-.right .sales-analytics .item.customers .icon{
+
+.right .sales-analytics .item.customers .icon {
     background: rgb(71, 165, 42);
 }
 
-.right .sales-analytics .add-product{
+.right .sales-analytics .add-product {
     background-color: transparent;
     border: 2px dashed var(--color-danger);
     color: rgb(77, 148, 215);
@@ -537,7 +538,8 @@ main .recent-orders a {
     align-items: center;
     justify-content: center;
 }
-.right .sales-analytics .add-product div{
+
+.right .sales-analytics .add-product div {
     display: flex;
     align-items: center;
     gap: 0.6rem;
@@ -550,52 +552,70 @@ main .recent-orders a {
 
 /*================>>>>> MEDIA QUERIES <<<<<================*/
 @media screen and (max-width: 1200px) {
-    .container{
+    .container {
         width: 94%;
         grid-template-columns: 7rem auto 23rem;
     }
 
-    aside .logo h2{
+    aside .logo h2 {
         display: none;
     }
 
-    aside .sidebar h3{
+    aside .sidebar h3 {
         display: none;
     }
 
-    aside .sidebar a{
+    aside .sidebar a {
         width: 5.6rem;
     }
 
-    aside .sidebar a:last-child{
+    aside .sidebar a:last-child {
         position: relative;
         margin-top: 1.8rem;
     }
 
     main .insights {
-        grid-template-columns:1fr ;
+        grid-template-columns: 1fr;
         gap: 0;
     }
 
-    main .recent-orders{
+    main .recent-orders {
         width: 94%;
         position: absolute;
         left: 50%;
         transform: translateX(-50%);
         margin: 2rem 0 0 8.8rem;
     }
+
     main .recent-orders table {
         width: 83vW;
     }
 
     main table thead tr th:last-child,
-    main table thead tr th:first-child{
+    main table thead tr th:first-child {
         display: none;
     }
+
     main table tbody tr td:last-child,
-    main table tbody tr td:first-child{
+    main table tbody tr td:first-child {
         display: none;
     }
 }
 
 /*=================>>>>> MEDIA QUERIES <<<<====================*/
+@media screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+
+    aside {
+        position: fixed;
+        left: 0;
+        background: var(--color-light);
+        width: 18rem;
+        z-index: 3;
+        box-shadow: 1rem 3rem 4rem var(--color-light);
+        height: 100vh;
+        padding-right: var(--card-padding);
+    }
+}
