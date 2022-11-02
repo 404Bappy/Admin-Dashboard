@@ -10,3 +10,8 @@ menuBtn.addEventListener('click', () => {
 closeBtn.addEventListener('click', () => {
     sideMenu.style.display = 'none';
 })
+
+//==========>Change Theme========>
+themeToggler.addEventListener('click', () => {
+    document.body.classList.toggle('dark-theme-variable');
+})
