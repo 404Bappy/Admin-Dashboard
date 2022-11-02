@@ -633,7 +633,7 @@ main .recent-orders a {
     }
 
     @keyframes showMenu {
-        to{
+        to {
             left: 0;
         }
     }
